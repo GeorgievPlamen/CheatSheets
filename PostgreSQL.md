@@ -42,7 +42,7 @@
 
     Query the rows in the table for specific columns. * for all.
 
-## DELTE FROM table_name WHERE condition;
+## DELETE FROM table_name WHERE condition;
 
     Delete a row on a condition.
 
