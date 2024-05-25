@@ -53,3 +53,33 @@
     Lists a file tree.
 
     -name (filename) searches for specific file.
+
+## Script setups
+
+    which (sh 'which bash') - shows directory
+    #!(directory of sh to be used)
+    permissions -w -rw -r -x
+    chmod +x FILENAME
+
+## VARIABLE_NAME=VALUE
+
+    Create variable.
+
+## $VARIABLE_NAME
+
+    Use variable with $.
+
+## read VARIABLE_NAME
+
+    Reads from user input.
+
+## Add comments
+
+    # comment
+
+## If statement
+
+    if [[ CONDITION ]]
+    then
+    STATEMENTS
+    fi
