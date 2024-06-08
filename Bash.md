@@ -18,6 +18,44 @@
 
     Change directory <dir name>.
 
+## cat (file)
+
+    Read the whole file
+
+## wc (file)
+
+    Prints new line word count and byte size of file.
+
+    -l = new line
+
+## diff (file1 file2)
+
+    Difference of the two files
+
+## |
+
+    Pipe left side to the right side as input
+
+## >
+
+    stdout to a file, overwrites or creates the file
+
+## >>
+
+    stdout to a file, appends
+
+## <
+
+    stdin to a file, right is input.
+
+## grep
+
+    Find patterns in the file and prints the line containing matches.
+    --color will color the pattern.
+    -n to have the line numbers.
+    -c count lines
+    -o prinst matches in their own lines
+
 ## more (file)
 
     Read the file in the terminal.
@@ -58,6 +96,7 @@
 
     which (sh 'which bash') - shows directory
     #!(directory of sh to be used)
+    #!/bin/bash
     permissions -w -rw -r -x
     chmod +x FILENAME
 
